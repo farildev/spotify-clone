@@ -7,9 +7,9 @@ import Library from '../views/Library';
 
 const Content = () => {
   return (
-    <main className='flex-auto'>
+    <main className='flex-auto overflow-auto'>
       <Navbar/>
-      <div className="px-8 pt-2">
+      <div className="px-8 pt-5">
       <Routes>
         <Route exact path='/' element={<Home/>}/>
         <Route path='/search' element={<Search/>}/>

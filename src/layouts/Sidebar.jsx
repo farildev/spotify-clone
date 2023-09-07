@@ -3,7 +3,7 @@ import Menu from './Sidebar/Menu';
 import Logo from "../assets/icons/Spotify-text.svg";
 import Playlists from '../components/Playlists';
 import Download from '../components/Download';
-import { Icon } from '../utils/icons';
+import { Icon } from '../utils/Icons';
 
 const Sidebar = () => {
   return (
