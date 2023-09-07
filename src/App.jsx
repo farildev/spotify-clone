@@ -1,7 +1,7 @@
 import React from "react";
 import Sidebar from "./layouts/Sidebar";
 import Content from "./layouts/Content";
-import BottomBar from "./components/BottomBar";
+import BottomBar from "./layouts/BottomBar";
 
 function App() {
   return (

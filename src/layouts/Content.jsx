@@ -9,11 +9,13 @@ const Content = () => {
   return (
     <main className='flex-auto'>
       <Navbar/>
+      <div className="px-8 pt-2">
       <Routes>
         <Route exact path='/' element={<Home/>}/>
         <Route path='/search' element={<Search/>}/>
         <Route path='/library' element={<Library/>}/>
       </Routes>
+      </div>
     </main>
   )
 }
