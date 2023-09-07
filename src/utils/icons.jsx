@@ -22,12 +22,39 @@ const LibraryIcon = ({size}) => {
 
     )
 }
+const PlusIcon = ({size}) => {
+    return (
+        <svg role="img" xmlns="http://www.w3.org/2000/svg" height={size} width={size} aria-hidden="true" class="Svg-sc-ytk21e-0 haNxPq home-active-icon" viewBox="0 0 24 24" data-encore-id="icon">
+            <path fill="currentColor" d="M15.25 8a.75.75 0 0 1-.75.75H8.75v5.75a.75.75 0 0 1-1.5 0V8.75H1.5a.75.75 0 0 1 0-1.5h5.75V1.5a.75.75 0 0 1 1.5 0v5.75h5.75a.75.75 0 0 1 .75.75z"/>
+        </svg>
 
-const Icon = ({name , size=24,}) =>{
+    )
+}
+const HeartIcon = ({size}) => {
+	return (
+		<svg role="img" xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+			<path fill="currentColor" d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"/>
+		</svg>
+	)
+}
+const DownloadIcon = ({size}) => {
+	return (
+		<svg viewBox="0 0 24 24" width={size} height={size} xmlns="http://www.w3.org/2000/svg">
+			<path fill="currentColor"
+			      d="M11.5 0C5.149 0 0 5.148 0 11.5 0 17.851 5.149 23 11.5 23S23 17.851 23 11.5C23 5.148 17.851 0 11.5 0zm0 22C5.71 22 1 17.29 1 11.5S5.71 1 11.5 1 22 5.71 22 11.5 17.29 22 11.5 22zm.499-6.842V5h-1v10.149l-3.418-3.975-.758.652 4.678 5.44 4.694-5.439-.757-.653-3.439 3.984z"/>
+		</svg>
+	)
+}
+
+
+const Icon = ({name , size=24}) =>{
     const icons = {
         home : HomeIcon,
         search : SearchIcon,
-        library : LibraryIcon
+        library : LibraryIcon,
+        plus : PlusIcon,
+		heart : HeartIcon,
+		download : DownloadIcon
     }
     const Component = icons[name]
     return <Component size={size}/>
