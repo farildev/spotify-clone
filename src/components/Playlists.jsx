@@ -5,7 +5,7 @@ function Playlists() {
 			<ul>
 				{new Array(22).fill(<li>
 					<a href="#" className="text-sm text-link hover:text-white flex h-8 items-center">
-						22. Çalma Listem
+						My Playlist
 					</a>
 				</li>)
 				}

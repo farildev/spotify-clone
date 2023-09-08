@@ -1,13 +1,13 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Icon } from '../../utils/Icons';
+import { Icon } from '../../utils/icons';
 
 const Menu = () => {
   return (
     <nav id='sidebar' className='px-2'>
         <ul className='flex flex-col'>
             <li> 
-                <NavLink to={"/"} className='h-10 gap-x-4 flex items-center text-sm font-semibold text-white rounded hover:text-white px-4  bg-active'>
+                <NavLink to={"/"} className='h-10 gap-x-4 flex items-center text-sm font-semibold text-white rounded hover:text-white px-4 '>
                     <span>
                         <Icon name="home"/>
                     </span>
