@@ -6,6 +6,16 @@ const HomeIcon = ({size}) => {
 
     )
 }
+const LogoIcon = ({size}) => {
+	return (
+		<svg viewBox="0 0 16 16" width={size} height={size} xmlns="http://www.w3.org/2000/svg">
+			<path
+				d="M8 0a8 8 0 100 16A8 8 0 008 0zm3.903 11.532a.695.695 0 01-.947.267 8.299 8.299 0 00-3.237-1.02 8.318 8.318 0 00-3.384.351.696.696 0 01-.423-1.326 9.668 9.668 0 013.948-.409 9.703 9.703 0 013.777 1.19.697.697 0 01.266.947zm.958-2.429a.695.695 0 01-.938.295 10.87 10.87 0 00-3.944-1.177 10.828 10.828 0 00-4.127.367.695.695 0 11-.386-1.336 12.264 12.264 0 014.653-.415c1.566.159 3.062.606 4.447 1.327.34.178.473.598.295.939zm.346-2.022a.69.69 0 01-.31-.073 13.454 13.454 0 00-4.659-1.345 13.423 13.423 0 00-4.843.383.695.695 0 11-.359-1.344 14.85 14.85 0 015.343-.423c1.802.183 3.532.682 5.139 1.484a.695.695 0 01-.311 1.318z"
+				fill="currentColor"/>
+		</svg>
+	)
+}
+
 const SearchIcon = ({size}) => {
     return (
         <svg role="img" height={size} width={size} aria-hidden="true" className="Svg-sc-ytk21e-0 haNxPq home-active-icon" viewBox="0 0 24 24" data-encore-id="icon">
@@ -104,7 +114,7 @@ const PrevMusic = ({size}) => {
 }
 const NextMusic = ({size}) => {
 	return (
-		<svg role="img" height="16" width={size} aria-hidden={size} viewBox="0 0 16 16" data-encore-id="icon" className="Svg-sc-ytk21e-0 haNxPq">
+		<svg role="img" height={size} width={size} aria-hidden="true" viewBox="0 0 16 16" data-encore-id="icon" className="Svg-sc-ytk21e-0 haNxPq">
 			<path fill="currentColor" d="M12.7 1a.7.7 0 0 0-.7.7v5.15L2.05 1.107A.7.7 0 0 0 1 1.712v12.575a.7.7 0 0 0 1.05.607L12 9.149V14.3a.7.7 0 0 0 .7.7h1.6a.7.7 0 0 0 .7-.7V1.7a.7.7 0 0 0-.7-.7h-1.6z"/>
 		</svg>
 	)
@@ -192,11 +202,20 @@ const FullScreenIcon = ({size}) => {
 	)
 }
 
+const MiniScreenIcon = ({size}) => {
+	return (
+		<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height={size} width={size} xmlns="http://www.w3.org/2000/svg">
+			<path d="M10 4H8v4H4v2h6zM8 20h2v-6H4v2h4zm12-6h-6v6h2v-4h4zm0-6h-4V4h-2v6h6z"/>
+		</svg>
+	)
+}
+
 
 
 
 const Icon = ({name , size=24}) =>{
     const icons = {
+		logo : LogoIcon,
         home : HomeIcon,
         search : SearchIcon,
         library : LibraryIcon,
@@ -223,6 +242,7 @@ const Icon = ({name , size=24}) =>{
 		volumeMute : VolumeMuteIcon,
 		heartFilled : HeartFilledIcon,
 		fullScreen : FullScreenIcon,
+		miniScreen : MiniScreenIcon
 
     }
     const Component = icons[name]
