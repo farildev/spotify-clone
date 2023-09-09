@@ -50,9 +50,9 @@ Build the project
     <li> TailwindCSS </li>
     <li> Redux Tookit </li>
     <li> React Use </li>
+    <li> React Router Dom </li>
     <li> React Indiana Drag Scroll </li>
 </div>
-<br/>
 <hr/>
 <div>
 <p>This project created with Tayfun Erbilen tutorials. Please go to that repo and star and support Tayfun Erbilen.</p>
