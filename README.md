@@ -59,6 +59,7 @@ Build the project
 <p>This project created with Tayfun Erbilen tutorials. Please go to that repo and star and support Tayfun Erbilen.</p>
 <h5> Original repository link and author</h5>
 <a href="https://github.com/tayfunerbilen">Tayfun Erbilen</a>
+<br/>
 <a href="https://github.com/tayfunerbilen/react-tailwind-spotify-clone">Spotify Clone App</a>
 </div>
 
