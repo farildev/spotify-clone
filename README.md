@@ -1,6 +1,6 @@
 
 <div align="center">
-    <h2 align="center">Spotify Clone - v1.1.74.631(Not Finished)</h2>
+    <h2 align="center">Spotify Clone - v1.1.74.631 (Not Finished)</h2>
     <div><img src="./src/assets/icons/Spotify-text.svg"></div>
 </div>
 <hr/>
