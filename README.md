@@ -10,11 +10,32 @@
 <div >
 <h3> How can you run it?</h3>
 
-Run project in development mode
+Clone the project
+
+```bash
+  git clone https://github.com/farildev/spotify-clone.git
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
 ```bash
   npm run dev
 ```
-Run project for build
+
+Build the project
+
 ```bash
   npm run build
 ```
@@ -27,5 +48,11 @@ Run project for build
     <li> Redux Tookit </li>
     <li> React Use </li>
     <li> React Indiana Drag Scroll </li>
+</div>
+<div>
+<p>This project created with Tayfun Erbilen tutorials. Please go to that repo and star and support Tayfun Erbilen.</p>
+<h5> Original repository link and author</h5>
+- [@tayfunerbilen](https://github.com/tayfunerbilen)
+- [@react-tailwind-spotify-clone] (https://github.com/tayfunerbilen/react-tailwind-spotify-clone)
 </div>
 
