@@ -12,6 +12,9 @@ export default {
         active : "#282828",
         link : "#b3b3b3",
         bottomBar : "#181818"
+      },
+      boxShadow : {
+        spotify : '0 2px 4px 0 rgb(0 0 0 / 20%)'
       }
     },
   },

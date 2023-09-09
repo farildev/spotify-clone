@@ -11,7 +11,7 @@ const Content = () => {
       <Navbar/>
       <div className="px-8 pt-5">
       <Routes>
-        <Route exact path='/' element={<Home/>}/>
+        <Route path='/' element={<Home/>}/>
         <Route path='/search' element={<Search/>}/>
         <Route path='/library' element={<Library/>}/>
       </Routes>

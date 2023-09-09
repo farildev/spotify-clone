@@ -17,4 +17,7 @@
     nav a.active{
         @apply bg-active
     }
+    .scrollable {
+        scroll-behavior: smooth;
+    }
 }

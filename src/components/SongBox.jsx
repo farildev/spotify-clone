@@ -36,7 +36,7 @@ const SongBox = ({item}) => {
 
   return (
     <NavLink
-                    className={"bg-bottomBar rounded p-4 group  hover:bg-active"}
+                    className={`bg-bottomBar rounded p-4 group  hover:bg-active`}
                      key={item.id}
                      to={"/"}>
                         <div className='pt-[100%] relative mb-4'>

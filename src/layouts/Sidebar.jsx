@@ -8,7 +8,7 @@ import { useSelector } from 'react-redux';
 import SongCover from '../components/SongCover';
 
 const Sidebar = () => {
-	const sidebar = useSelector(state => state.player.sidebar);
+	const {sidebar} = useSelector(state => state.player);
   return (
     <aside className='w-60 flex flex-col flex-shrink-0 pt-6 bg-black'>
         <a href='#' className='mb-7 px-6'>

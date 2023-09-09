@@ -5,7 +5,7 @@ import { setSidebar } from '../store/player';
 
 const SongCover = () => {
     const dispatch = useDispatch()
-    const current = useSelector(state => state.player.current)
+    const {current} = useSelector(state => state.player)
   return (
     <div className='pt-[100%] relative group bg-white'>
         <img src={current.image} className='w-full h-full object-cover absolute top-0 left-0' alt="" />

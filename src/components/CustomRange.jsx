@@ -2,6 +2,7 @@ import React from 'react';
 import { Range , getTrackBackground } from 'react-range';
 
 const CustomRange = ({value , step , min ,max ,onChange}) => {
+
   return (
     <Range
                 values={[value]}
