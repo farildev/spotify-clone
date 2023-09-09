@@ -3,7 +3,7 @@ export default [
 		id: 1,
 		title: 'Intouchables - Soundtracks OST',
 		description: 'Original Soundtrack',
-		artist: 'Tayfun Abi',
+		artist: 'James Arthur',
 		image: 'https://i.scdn.co/image/ab67706c0000da84fcb8b92f2615d3261b8eb146',
 		type: 'album',
 		src: 'https://freesound.org/data/previews/612/612095_5674468-lq.mp3'
@@ -11,7 +11,7 @@ export default [
 	{
 		id: 2,
 		title: 'Peaceful Piano',
-		artist: 'Murat Abi',
+		artist: 'David Kushner',
 		description: 'Relax and indulge with beautiful piano pieces',
 		image: 'https://i.scdn.co/image/ab67706f00000002ca5a7517156021292e5663a6',
 		type: 'album',
@@ -20,7 +20,7 @@ export default [
 	{
 		id: 3,
 		title: 'Hang Massive',
-		artist: 'Mert Abi',
+		artist: 'KALEO',
 		description: 'Artist',
 		image: 'https://i.scdn.co/image/ab67616100005174802686196d39eb0b7b5cd8b1',
 		type: 'artist',
@@ -29,7 +29,7 @@ export default [
 	{
 		id: 4,
 		title: 'Intouchables - Soundtracks OST',
-		artist: 'Gökhan Abi',
+		artist: 'The Weeknd',
 		description: 'Original Soundtrack',
 		image: 'https://i.scdn.co/image/d39397d2f6a1525b3fe90369c89ea2d94aac5714',
 		type: 'podcast',
@@ -38,7 +38,7 @@ export default [
 	{
 		id: 5,
 		title: 'Intouchables - Soundtracks OST',
-		artist: 'Mehmet Abi',
+		artist: 'Chris Brown',
 		description: 'Original Soundtrack',
 		image: 'https://i.scdn.co/image/ab67706c0000da84fcb8b92f2615d3261b8eb146',
 		type: 'album',
